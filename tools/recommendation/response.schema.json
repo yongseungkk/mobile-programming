@@ -1,0 +1,89 @@
+{
+  "type": "object",
+  "properties": {
+    "recipes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "reason": {
+            "type": "string"
+          },
+          "minutes": {
+            "type": "integer"
+          },
+          "servings": {
+            "type": "integer"
+          },
+          "difficulty": {
+            "type": "string"
+          },
+          "ingredients": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "quantity": {
+                  "type": "string"
+                },
+                "pantryId": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "name",
+                "quantity",
+                "pantryId"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "steps": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "tips": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "summary",
+          "reason",
+          "minutes",
+          "servings",
+          "difficulty",
+          "ingredients",
+          "steps",
+          "tips"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "recipes"
+  ],
+  "additionalProperties": false
+}

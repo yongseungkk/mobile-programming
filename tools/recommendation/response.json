@@ -1,0 +1,24 @@
+{
+  "recipes": [
+    {
+      "id": "egg",
+      "title": "달걀요리",
+      "summary": "간단해요",
+      "reason": "달걀을 활용해요",
+      "minutes": 10,
+      "servings": 1,
+      "difficulty": "쉬움",
+      "ingredients": [
+        {
+          "name": "달걀",
+          "quantity": "2개",
+          "pantryId": "egg"
+        }
+      ],
+      "steps": [
+        "충분히 익혀요."
+      ],
+      "tips": []
+    }
+  ]
+}
