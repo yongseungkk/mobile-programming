@@ -1,0 +1,32 @@
+{
+  "today": "2026-11-26",
+  "ingredients": [
+    {
+      "id": "egg",
+      "name": "달걀",
+      "quantity": "4개",
+      "expiresOn": "2026-11-27"
+    },
+    {
+      "id": "old",
+      "name": "우유",
+      "quantity": "1개",
+      "expiresOn": "2026-11-25"
+    }
+  ],
+  "survey": {
+    "allergies": [],
+    "dislikes": [],
+    "preferredCuisines": [
+      "한식"
+    ],
+    "diet": "제한 없음",
+    "spiceLevel": "순한 맛",
+    "skillLevel": "초보",
+    "maxMinutes": 20,
+    "servings": 1
+  },
+  "maxMinutes": 20,
+  "servings": 1,
+  "note": "담백한 요리"
+}
